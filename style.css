@@ -28,6 +28,7 @@
 
 body {
   background: var(--bg-url) no-repeat top center/cover;
+  height: 100px;
 }
 
 body * {
@@ -146,4 +147,13 @@ footer {
   font-size: 14px;
   text-align: center;
   color: var(--legend-final);
+}
+
+@media(min-widht:700px){
+  .root{
+    --bg-url:url(./assets/assets/bg.jpg);
+  }
+  .light{
+    --bg-url:url(./assets/assets/bg-light.jpg);
+  }
 }
